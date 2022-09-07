@@ -19,21 +19,21 @@ const Forms = () => {
   ];
   return (
     <CDBContainer>
-      <CDBCard style={{ width: '30rem' }}>
-        <div style={{ background: 'black' }} className="text-center text-white">
-          <p className="h5 mt-2 py-4 font-weight-bold">Contact Us</p>
+      <CDBCard style={{ width: '100%', border:"none", backgroundColor: 'AFB4FF' }}>
+        <div style={{ background: 'none' }} className="text-center">
+          <p className="h5 mt-2 py-4 font-weight-bold" style={{fontWeight:"bold",color: 'blue'}}>Contact Us</p>
         </div>
-        <CDBCardBody className="mx-4">
+        <CDBCardBody className="mx-4" style={{color: 'blue'}}>
           <CDBInput label="Name" type="text" placeholder="write your full names"/>
           <CDBInput label="E-mail" type="email" placeholder="Input email address"/>
-          <p className="text-center m-0 text-muted">Subject</p>
+          <p className="text-center m-0" style={{fontWeight:"550",color: 'blue'}}>Subject</p>
           {/* <CDBSelect2 color="white" options={option} selected="Feedback" /> */}
           <CDBInput label="Message" type="textarea" />
           <div className="d-flex justify-content-center align-items-center mt-4">
             <CDBInput type="Checkbox" />
             <p className="m-0">Send me a copy of this message</p>
           </div>
-          <CDBBtn color="dark" outline className="btn-block my-3 mx-0">
+          <CDBBtn color="primary" outline className="btn-block my-3 mx-0">
             Send
           </CDBBtn>
         </CDBCardBody>

@@ -26,7 +26,7 @@ function Home() {
       });
   }, []);
   return (
-    <>
+    <div className="container3">
       <div className="image-container">
         <div className="inner-image-container">
           {movies.map((movieReq) => (
@@ -34,7 +34,7 @@ function Home() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
