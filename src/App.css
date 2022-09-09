@@ -97,4 +97,67 @@ font-size: larger;
 .closebtn{
   color: blue;
 }
+.comment-container{
+  background-color: rgb(157, 149, 224);
+}
+#fname{
+background-color: rgb(255, 255, 255);
+border-radius: 10px;
+border:none;
+height:40px;
+width: 50%;
+margin-bottom: 10px;
+}
+#lname{
+  border-radius: 10px;
+  border:none;
+  width: 50%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
 
+}
+.com{
+  font-size: larger;
+  font-weight: 900;
+  color: rgb(0, 0, 0);
+}
+.com1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+ 
+
+}
+
+#btn{
+  margin-top: 10px;
+  width: 50%;
+  background-color: blue;
+  border:none;
+  border-radius: 10px;
+  height:35px;
+  color: white;
+  font-weight: 900;
+}
+.comment{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  font-size: larger;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.fun{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

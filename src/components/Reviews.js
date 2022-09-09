@@ -31,7 +31,10 @@ function Review() {
         <input type="text" id="lname" name="lname" placeholder="Add a comment"/> <br></br>
         <input type="submit" id="btn" value="post review"/>
       </form>
-      {myReviews}
+      <div className="form-group">
+        {myReviews}
+      </div>
+      
     </div>
   );
 }
