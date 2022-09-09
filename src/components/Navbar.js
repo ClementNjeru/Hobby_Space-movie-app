@@ -8,7 +8,7 @@ import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 function NavBar() {
   return (
     <div>
-      <Navbar className="nav-section" expand="lg"  style={{ backgroundColor: "#25316D" }}>
+      <Navbar className="nav-section" expand="lg"  style={{ backgroundColor: "" }}>
         <Container className="nav-container">
           <Navbar.Brand href="/">
             {/* <li>

@@ -18,8 +18,8 @@ const Forms = () => {
     },
   ];
   return (
-    <CDBContainer>
-      <CDBCard style={{ width: '100%', border:"none", backgroundColor: 'AFB4FF' }}>
+    <CDBContainer className ='CC' >
+      <CDBCard style={{ width: '100%', border:"none", backgroundColor: '#242F9B' }}>
         <div style={{ background: 'none' }} className="text-center">
           <p className="h5 mt-2 py-4 font-weight-bold" style={{fontWeight:"bold",color: 'blue'}}>Contact Us</p>
         </div>

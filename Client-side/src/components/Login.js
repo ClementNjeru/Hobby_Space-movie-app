@@ -27,7 +27,7 @@ function App() {
             <MDBCardBody className='d-flex flex-column'>
 
               <div className='d-flex flex-row mt-2'>
-                <MDBIcon fas icon="cubes fa-3x me-3" style={{ color: '#ff6219' }}/>
+                <MDBIcon fas icon="cubes fa-3x me-3" style={{ color: '#ff6219'}}/>
                 <span className="h1 fw-bold mb-0">Welcome</span>
                 
               </div>
