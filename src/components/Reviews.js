@@ -1,13 +1,26 @@
-import React, { Component } from 'react'
+import React, { Component, useEffect,useState } from 'react'
 
-export default class Reviews extends Component {
-  render() {
+
+function Review () {
+   const [movies, setMovies] = useState([])
+   const getMovies = () => {
+    fetch ("http://localhost:9292/movies")
+    .then((response) => response.json())
+    .then ((movies) => {setMovies(movies)})
+    console.log()
+   }
+
+   useEffect(getMovies, [])
+
+   let myMovies = movies.map((movie) =>
+         (<Review title={movie.title}/>)
+   )
+   
     return (
       <div>
-         <h1>
-            SignUp
-        </h1>
+        {myMovies}
       </div>
     )
   }
-}
+
+export default Review;
