@@ -12,9 +12,11 @@
   font-weight: bolder;
   font-size: large;
 }
-
+.main1{
+  /* background-color: black; */
+}
 .nav-section{
-  background-color: rgba(148, 153, 192, 0.486);
+  background-color: rgba(148, 151, 192, 0.486);
   border-radius: 0;
   /* align-items: center; */
   /* justify-content: space-between; */
@@ -50,7 +52,7 @@
 }
 .log{
   width: 90%;
-  color: rgb(11, 139, 250);
+  /* color: rgb(19, 250, 11); */
 }
 .nav{
   margin-right: 70px;
@@ -69,7 +71,7 @@
 
 }
 .Card-img-top{
-    width: 301px;
+    width: 300px;
     border-radius: 20px;
     max-height: 450px;
     margin-bottom: 20px;
@@ -93,6 +95,6 @@ font-size: larger;
 
 }
 .closebtn{
-  color: rgb(3, 3, 236);
+  color: blue;
 }
 

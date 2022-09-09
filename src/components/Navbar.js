@@ -8,7 +8,7 @@ import { MDBBtn, MDBIcon } from "mdb-react-ui-kit";
 function NavBar() {
   return (
     <div>
-      <Navbar className="nav-section" expand="lg"  style={{ backgroundColor: "" }}>
+      <Navbar className="nav-section" expand="lg">
         <Container className="nav-container">
           <Navbar.Brand href="/">
             {/* <li>
@@ -44,7 +44,7 @@ function NavBar() {
         </Container>
         <MDBBtn
           className="m-1"
-          style={{ backgroundColor: "#1F4690", transition: "all 0.3s ease 0s" }}
+          style={{ backgroundColor: "gray", transition: "all 0.3s ease 0s" }}
           href="https://twitter.com/@Clement30572503
 "
         >
@@ -52,14 +52,14 @@ function NavBar() {
         </MDBBtn>
         <MDBBtn
           className="m-1"
-          style={{ backgroundColor: "#1F4690" }}
+          style={{ backgroundColor: "gray" }}
           href="https://www.linkedin.com/in/clement-njeru-9288171ab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bmfyqo1%2FDRlic%2FO%2BY6qBTkg%3D%3D"
         >
           <MDBIcon fab icon="linkedin-in" />
         </MDBBtn>
         <MDBBtn
           className="m-1"
-          style={{ backgroundColor: "#1F4690" }}
+          style={{ backgroundColor: "gray" }}
           href="https://github.com/ClementNjeru"
         >
           <MDBIcon fab icon="github" />
