@@ -1,7 +1,7 @@
 import React, { Component, useEffect,useState } from 'react'
 
 
-function Review () {
+function Revie () {
    const [movies, setMovies] = useState([])
    const getMovies = () => {
     fetch ("http://localhost:9292/movies")
