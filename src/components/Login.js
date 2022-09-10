@@ -14,9 +14,8 @@ from 'mdb-react-ui-kit';
 
 function App() {
   return (
-    <MDBContainer className="log">
-
-      <MDBCard className= 'log'>
+    <MDBContainer>
+      <MDBCard className= "log">
         <MDBRow className='g-0'>
 
           <MDBCol md='6'>
