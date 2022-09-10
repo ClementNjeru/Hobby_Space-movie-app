@@ -11,12 +11,6 @@ function NavBar() {
       <Navbar className="nav-section" expand="lg">
         <Container className="nav-container">
           <Navbar.Brand href="/">
-            {/* <li>
-              <img
-                src="https://res.cloudinary.com/practicaldev/image/fetch/s--_b-IfdIg--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn.hashnode.com/res/hashnode/image/upload/v1647410910018/spTELtuIz.jpeg"
-                alt="logo"
-              />
-            </li> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -44,7 +38,7 @@ function NavBar() {
         </Container>
         <MDBBtn
           className="m-1"
-          style={{ backgroundColor: "gray", transition: "all 0.3s ease 0s" }}
+          style={{ backgroundColor: "primary", transition: "all 0.3s ease 0s" }}
           href="https://twitter.com/@Clement30572503
 "
         >
@@ -52,14 +46,14 @@ function NavBar() {
         </MDBBtn>
         <MDBBtn
           className="m-1"
-          style={{ backgroundColor: "gray" }}
+          style={{ backgroundColor: "primary" }}
           href="https://www.linkedin.com/in/clement-njeru-9288171ab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3Bmfyqo1%2FDRlic%2FO%2BY6qBTkg%3D%3D"
         >
           <MDBIcon fab icon="linkedin-in" />
         </MDBBtn>
         <MDBBtn
           className="m-1"
-          style={{ backgroundColor: "gray" }}
+          style={{ backgroundColor: "primary" }}
           href="https://github.com/ClementNjeru"
         >
           <MDBIcon fab icon="github" />
