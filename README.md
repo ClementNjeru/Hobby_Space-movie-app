@@ -8,7 +8,7 @@ This is a platform that allows individuals from all over the world to navigate t
 ## Screenshots
  ![image](./src/Assets/Screenshot1.png)
  ![image](./src/Assets/Screenshot3.png)
- ![image](./src/Assets/Screenshot3.png)
+ ![image](./src/Assets/Screenshot3.png) 
  ![image](./src/Assets/Screenshot4.png)
  ![image](./src/Assets/Screenshot5.png)
 
