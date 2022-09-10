@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100&display=swap');
 *{
-  /* background: rgb(119, 114, 114); */
   text-align: center;
   font-family: "Poppins";
   margin: 0;
@@ -8,7 +7,6 @@
   text-decoration: none;
   list-style-type: none;
   outline: none;
-  /* background-image: url("./Assets/image3.jpg"); */
   font-weight: bolder;
   font-size: large;
 }
@@ -28,20 +26,15 @@
   margin-right: 20px;
   padding-left:30px;
   padding-right:30px;
-
-
 }
 .me-auto{
   font-size: x-large;
   display: block;
-  font-weight: 900;
-  
+  font-weight: 900; 
 }
 #basic-navbar-nav{
   padding: 15px;
   margin-left: 200px;
-
-
 }
 .card{
   width: 289px;
@@ -52,8 +45,6 @@
 }
 .log{
   width: 90%;
-
-  /* color: rgb(19, 250, 11); */
 }
 .g-0{
   background-color: #7859c7;
@@ -78,27 +69,14 @@
     border-radius: 20px;
     max-height: 450px;
     margin-bottom: 20px;
-    /* height: 40px; */
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* color:white ; */
-    /* background-color: black; */
-    /* width: 50px; */
-    /* margin: 0 5px 0 5px; */
 }
 .Card-img-top1{
   width: 100%;
 }
-/* .small-text-muted-me-1{
-font-size: larger;
-} */
 .container3{
   background-image: url("./Assets/image3.jpg");
 
-}
-.closebtn{
-  color: blue;
 }
 .comment-container{
   background-color: #7859c7;
