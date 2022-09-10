@@ -52,7 +52,11 @@
 }
 .log{
   width: 90%;
+
   /* color: rgb(19, 250, 11); */
+}
+.g-0{
+  background-color: #7859c7;
 }
 .nav{
   margin-right: 70px;
@@ -68,8 +72,6 @@
   margin-left: 15px;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
-
-
 }
 .Card-img-top{
     width: 300px;
@@ -99,7 +101,7 @@ font-size: larger;
   color: blue;
 }
 .comment-container{
-  background-color: rgb(157, 149, 224);
+  background-color: #7859c7;
 }
 #fname{
 background-color: rgb(255, 255, 255);
