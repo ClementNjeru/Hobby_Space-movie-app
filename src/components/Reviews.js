@@ -52,9 +52,9 @@ const handleChange = e => {
         Please add your feedback here
       </h1>
       <form onClick={handleNewReview}>
-        <label for="fname" id ="name"></label>
+        {/* <label for="fname" id ="name"></label> */}
         <input type="text" id="fname" name="name" placeholder="Enter your name" onChange ={handleChange}/> <br></br>
-        <label for="lname"></label>
+        {/* <label for="lname"></label> */}
         <input type="text" id="lname" name="comments" placeholder="Add a comment" onChange={handleChange}/> <br></br>
         <input type="submit"  id="btn" value="post review"/>
       </form>
