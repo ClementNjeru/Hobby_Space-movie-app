@@ -11,7 +11,7 @@ function Review() {
 
   });
   useEffect(() => {
-    fetch("http://localhost:9292/reviews")
+    fetch("https://hobby-client.herokuapp.com/reviews")
       .then((response) => response.json())
       .then((reviews) => setReviews(reviews));
   }, []);
@@ -24,7 +24,7 @@ function Review() {
   function handleNewReview(e) {
     e.preventDefault();
 
-    fetch("http://localhost:9292/reviews",{
+    fetch("https://hobby-client.herokuapp.com/reviews",{
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify({
